@@ -8,3 +8,7 @@ Only a subset of the commands are implemented.
 ## Usage
 
 For now, have a look at the `main.lua` file for a first sample usage.
+
+## Alternatives
+
+- A different implementation of the turtle: <https://love2d.org/forums/viewtopic.php?t=11756>
