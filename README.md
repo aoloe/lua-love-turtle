@@ -7,7 +7,7 @@ Only a subset of the commands are implemented.
 
 ## Usage
 
-For now, have a look at the `main.lua` file for a first sample usage.
+For now, have a look at the `sample/basic.lua` file to check what has been already implemented.
 
 ## Alternatives
 
