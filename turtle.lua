@@ -1,6 +1,3 @@
--- API inspired by https://docs.python.org/2/library/turtle.html
--- i had a look at https://love2d.org/forums/viewtopic.php?t=11756
-
 drawing = false
 position = {x = 0, y = 0}
 direction = 0 -- in randians
@@ -45,6 +42,7 @@ function pendown()
     drawing = true
 end
 
+-- todo: implement
 function pensize()
 end;
 
@@ -75,6 +73,7 @@ end
 
 -- Parameters: speed – an integer in the range 0..10 or a speedstring: 
 -- "fastest", "fast", "normal", "slow", "slowest"
+-- todo: implement
 function speed(speed)
 -- "fastest": 0
 -- "fast": 10
@@ -96,8 +95,10 @@ function forward(distance)
 end
 
 function backward(distance)
+    forward(-distance)
 end
 
+-- todo: implement
 function goto(x, y)
 end
 
@@ -112,6 +113,7 @@ function left(angle)
     direction = direction + math.rad(angle)
 end
 
+-- not in use (yet)
 function table.contains(table, element)
     for _, value in pairs(table) do
         if value == element then
